@@ -1,9 +1,9 @@
 /* Botonera nav*/
+nav {
 .home-nav-lista li:hover {
     background: #ffcc00;
 }
-
-/* Botonera */
+    /* Botonera */
 .home-nav-lista li a {
     display: flex;
     flex-direction: row;
@@ -11,8 +11,8 @@
     padding: 10px 15px;
     text-decoration: underline;
     font-size: 14px;
-}
 
+}
 .home-nav-lista li {
     border-left: solid 0.5px;
 }
@@ -29,3 +29,7 @@ nav ul li {
     align-items:flex-start;
     justify-content: space-around;
 }
+
+
+}
+

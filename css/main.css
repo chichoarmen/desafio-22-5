@@ -21,37 +21,31 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center; }
-
-header {
+  justify-content: center;
   height: 500px;
   padding: 15px;
   display: flex;
   align-items: center;
   justify-content: center;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-style: italic; }
-
-header img {
-  max-width: 200px; }
-
-header div p {
-  max-width: 400px; }
-
-/* Descripción MB */
-header {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center; }
-
-.descripcion {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center; }
+  font-style: italic;
+  /* Descripción MB */ }
+  header header img {
+    max-width: 200px; }
+  header header div p {
+    max-width: 400px; }
+  header header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; }
+  header .descripcion {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; }
 
 /* Botonera nav*/
 .home-nav-lista li:hover {
