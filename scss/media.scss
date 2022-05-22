@@ -1,0 +1,39 @@
+/*Media queries tablet*/
+      
+    
+@media screen and (min-width: 768px) {
+    .main-wrapper {
+        grid-template-areas: 
+        "nav nav"
+        "header main"
+        "footer footer";
+        }
+        header {
+                flex-direction: row;
+                justify-content: space-around;
+                text-align: left;
+            }
+            
+        main {
+                grid-template-areas: 
+                "intro aside"
+                "portfolio aside"
+                "casos casos";
+                }
+
+            }
+/*Media queries compu*/
+
+@media screen and (min-width: 1024px) {
+    .main-wrapper {
+        grid-template-areas: 
+        "nav nav"
+        "header main"
+        "footer footer";
+        }
+    header {
+                flex-direction: row;
+                justify-content: space-around;
+                text-align: left;
+            }
+        }

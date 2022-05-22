@@ -1,0 +1,21 @@
+.main-wrapper {
+    background-color: whitesmoke;
+
+    /*Estilos de grilla*/
+    display: grid;
+    grid-template-areas: 
+    "nav"
+    "header"
+    "main"
+    "footer";
+}
+
+/*Estilos generales*/
+header, nav, main, footer {
+    border: solid 0.1px #152442;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    margin: 0px;
+    background-color: whitesmoke;
+    color: #152442;
+
+}
